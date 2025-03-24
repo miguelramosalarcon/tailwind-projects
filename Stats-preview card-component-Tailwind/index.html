@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Stats preview card component">
+  <meta name="keywords" content="card, component, front end mentor, miguel ramos alarcon">
+  <meta name="author" content="Miguel Ramos Alarcon">
+  <link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+</head>
+<body class="bg-Very-dark-blue text-white h-svh grid place-content-center font-inter">
+<main>
+  <div class="bg-Dark-desaturated-blue w-[327px] overflow-hidden rounded-lg xl:flex xl:w-[1100px] xl:flex-row-reverse">
+    <picture class="relative flex-1">
+      <source media="(max-width:1280px)" srcset="./assets/images/image-header-mobile.jpg"> 
+      <source media="(min-width:1281px)" srcset="./assets/images/image-header-desktop.jpg"> 
+      <img src="./assets/images/image-header-mobile.jpg" alt="image-header-mobile">
+      <div class="absolute inset-0 bg-Soft-violet/50 brightness-75 saturate-150 w-full h-full"></div>
+    </picture>
+    
+    <div class="pt-10 px-8 pb-8 flex-1 xl:p-16 xl:h-[350px]">
+      <h2 class="font-bold text-center text-[1.75em] mb-4 leading-8 xl:text-4xl xl:text-left xl:leading-12 xl:w-[400px]" >Get <span class="text-Soft-violet"> insights</span> that help your business grow.</h2>
+      <p class="text-center text-Slightly-transparent-white mb-10 text-[0.93em] xl:w-[350px] xl:text-left">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+      <div class="flex gap-6 flex-col text-center xl:flex-row xl:justify-between xl:w-[350px]">
+        <div>
+          <p class="font-bold text-2xl uppercase">10k+</p>
+          <p class="font-lexend uppercase text-Slightly-transparent-white text-[0.75em] tracking-wider">companies</p>
+        </div>
+        <div>
+          <p class="font-bold text-2xl">314</p>
+          <p class="font-lexend uppercase text-Slightly-transparent-white text-[0.75em] tracking-wider">templates</p>
+        </div>        
+        <div>
+          <p class="font-bold text-2xl uppercase">12m+</p>
+          <p class="font-lexend uppercase text-Slightly-transparent-white text-[0.75em] tracking-wider">queries</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
