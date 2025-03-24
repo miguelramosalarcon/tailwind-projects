@@ -5,7 +5,7 @@ Proyectos realizados en Tailwind.
 <div align="center">
   <img src="https://img.shields.io/badge/FrontEnd-HTML%2BCSS-yellow" alt="FrontEnd - HTML+CSS">
   <img src="https://img.shields.io/badge/BackEnd-Javascript-orange" alt="BackEnd - Javascript">
-  <img src="https://img.shields.io/badge/tailwindcss" alt="tailwindcss - Framework">
+  <img src="https://img.shields.io/badge/tailwindcss-blue" alt="tailwindcss - Framework">
   
 </div>
 
