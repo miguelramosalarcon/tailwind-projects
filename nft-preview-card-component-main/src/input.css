@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 300 400 600;
+    font-display: swap;
+    src: url("../assets/font/Outfit-VariableFont_wght.ttf") format("woff2");
+}
+
+@theme{
+/* ### Primary */
+
+--color-Soft-blue: hsl(215, 51%, 70%);
+--color-Cyan: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+
+--color-Very-dark-blue-main: hsl(217, 54%, 11%);
+--color-Very-dark-blue-card: hsl(216, 50%, 16%);
+--color-Very-dark-blue-line: hsl(215, 32%, 27%);
+--color-White: hsl(0, 0%, 100%);
+
+/* Fuente */
+--font-outfit: Outfit;
+}
